@@ -1,0 +1,33 @@
+header {
+  background-color: $sg-primary-color;
+  padding: 1em;
+}
+
+nav {
+  padding: 1em;
+  a {
+    color: $black;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+h1 {
+  font: $sg-title-size $sg-title-font;
+}
+
+main {
+  @include center(85%);
+  margin-top: 3em;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+body {
+  font: $sg-body-size $sg-body-font;
+  color: $sg-secondary-color;
+}

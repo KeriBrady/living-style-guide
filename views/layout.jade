@@ -2,11 +2,27 @@ doctype html
 html
   head
     title= title
+    link(href='http://fonts.googleapis.com/css?family=Bitter|Muli:300', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    header
-      h1 Peach | Living Style Guide
+    header.fullWidth
       nav
-        a(href='#') Peach Website
-        a(href='#') Github
-    block content
+        a(href='#'): h1.title Peach | Style Guide
+        a.navLink(href='#') Peach Website
+        a.navLink(href='#') Github
+    main
+      section.sideMenu
+        ul
+          li
+            a.sideLink(href='#') Layout
+          li
+            a.sideLink(href='#') Typography
+          li
+            a.sideLink(href='#') Buttons
+          li
+            a.sideLink(href='#') Forms
+          li
+            a.sideLink(href='#') Navigation
+          li
+            a.sideLink(href='#') Media
+      block content
