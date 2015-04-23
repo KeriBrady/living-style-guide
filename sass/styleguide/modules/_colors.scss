@@ -1,0 +1,51 @@
+//Colors page
+
+.swatchText {
+  color: $white;
+  text-align: center;
+  line-height: 150px;
+  text-shadow: 1px 1px 2px $sg-secondary-color;
+}
+
+%swatch {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 .25em;
+  display: inline-block;
+}
+
+.primarySwatch {
+  @extend %swatch;
+  background-color: #FA8970;
+}
+
+.secondarySwatch {
+  @extend %swatch;
+  background-color: #AC6C82;
+}
+
+.thirdSwatch {
+  @extend %swatch;
+  background-color: #333333;
+}
+
+.fourthSwatch {
+  @extend %swatch;
+  background-color: #EEEEEE;
+}
+
+.accentSwatch1 {
+  @extend %swatch;
+  background-color: #64AD8A;
+}
+
+.accentSwatch2 {
+  @extend %swatch;
+  background-color: #F8613F;
+}
+
+.accentSwatch3 {
+  @extend %swatch;
+  background-color: #98566D;
+}

@@ -1,0 +1,19 @@
+.styleguideNav {
+  padding: 1em;
+}
+
+.navLink {
+  padding: 0 1em;
+  font: $sg-body-size $sg-title-font;
+  color: $black;
+  &:hover {
+    color: $white;
+  }
+}
+
+.title {
+  @extend .navLink;
+  display: inline;
+  padding-right: 1em;
+  font: $sg-subtitle-size $sg-title-font;
+}

@@ -1,0 +1,44 @@
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.container {
+  min-height:100%;
+  position:relative;
+}
+
+//Body styles
+
+.pageTitle {
+  font: $sg-title-size $sg-title-font;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid $sg-light-gray;
+}
+
+.description {
+  font: $sg-subtitle-size $sg-body-font;
+  margin-bottom: 3em;
+}
+
+.paddingTopBottom {
+  padding: 10px 0;
+}
+
+.bodyText {
+  font: $sg-body-size $sg-body-font;
+  padding-bottom: 1em;
+}
+
+.lineHeight {
+  line-height: 1.5em;
+}
+
+.inlineDiv {
+  display: inline-block;
+  margin-right: 2em;
+}

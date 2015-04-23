@@ -1,0 +1,17 @@
+.sideMenu {
+  ul {
+    @include border(1px, solid, $sg-light-gray);
+    border-radius: .5em;
+  }
+}
+
+.sideLink {
+  font-family: $sg-body-font;
+  display: block;
+  padding: 1em 0 1em 1em;
+  color: $sg-secondary-color;
+  &:hover {
+    color: $white;
+    background-color: $sg-light-gray;
+  }
+}

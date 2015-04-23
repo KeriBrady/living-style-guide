@@ -1,0 +1,36 @@
+.styleSample {
+  margin-bottom: 3em;
+}
+
+.subTitle {
+  color: $sg-third-color;
+  margin-top: 1em;
+  font: $sg-subtitle-size $sg-title-font;
+  margin-bottom: .5em;
+}
+
+.demo {
+  margin: 1em 0 0 1em;
+  @include border(1px, solid, $sg-light-gray);
+  border-radius: .5em;
+  padding: 1em;
+}
+
+.demoList>li {
+  padding: .5em 0;
+}
+
+.details {
+  margin: 1em 0 0 1em;
+}
+
+.code, .notes {
+  background-color: $sg-light-gray;
+  border-radius: .5em;
+}
+
+.detailsTitle {
+  padding-bottom: .5em;
+  font: $sg-subtitle-size $sg-body-font;
+  color: $sg-secondary-color;
+}
