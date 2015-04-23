@@ -2,27 +2,28 @@ doctype html
 html
   head
     title= title
-    link(href='http://fonts.googleapis.com/css?family=Bitter|Muli:300', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Bitter|Muli:300|PT+Mono', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Raleway:300,700|Montserrat', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     header.fullWidth
-      nav
-        a(href='#'): h1.title Peach | Style Guide
-        a.navLink(href='#') Peach Website
-        a.navLink(href='#') Github
+      nav.styleguideNav
+        a(href='/'): h1.title Style Guide | Peach
+        a.navLink(href='https://www.peachd.com/', target='_blank') Peach Website
+        a.navLink(href='https://github.com/KeriBrady/living-style-guide', target='_blank') Github
     main
       section.sideMenu
         ul
           li
-            a.sideLink(href='#') Layout
+            a.sideLink(href='/typography') Typography
           li
-            a.sideLink(href='#') Typography
+            a.sideLink(href='/buttons') Buttons
           li
-            a.sideLink(href='#') Buttons
+            a.sideLink(href='/forms') Forms
           li
-            a.sideLink(href='#') Forms
+            a.sideLink(href='/navigation') Navigation
           li
-            a.sideLink(href='#') Navigation
+            a.sideLink(href='/images') Images
           li
-            a.sideLink(href='#') Media
+            a.sideLink(href='/colors') Colors
       block content

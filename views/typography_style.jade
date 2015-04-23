@@ -1,0 +1,59 @@
+extends layout
+
+block content
+  section.pageContent
+    h1.pageTitle Typography
+    p.description Meggings sriracha typewriter, cred twee blog fap narwhal gluten-free farm-to-table iPhone wayfarers mlkshk. Jean shorts 8-bit Marfa Blue Bottle. Banh mi plaid bicycle rights cronut 3 wolf moon.
+    section.styleSample
+      h2.subTitle Headings
+      section.demo
+        h1.paddingTopBottom h1 Heading
+        h2.paddingTopBottom h2 Heading
+        h3.paddingTopBottom h3 Heading
+        h4.paddingTopBottom h4 Heading
+      section.details.clearfix
+        div.code
+          h2.detailsTitle Code
+          pre.
+            &lt;h1&gt;h1 Heading&lt;/h1&gt;
+            &lt;h2&gt;h2 Heading&lt;/h2&gt;
+            &lt;h3&gt;h3 Heading&lt;/h3&gt;
+            &lt;h4&gt;h4 Heading&lt;/h4&gt;
+        div.notes
+          h2.detailsTitle Notes
+          p.bodyText Heading tags should be used to indicate importance of content rather than style. Each section may (and should ideally) have its own h1 tag.
+          p.bodyText Be sure to only use h3 and h4 heading tags on specified pages.
+    section.styleSample
+      h2.subTitle Body text
+      section.demo
+        p.standardP This is a standard paragraph. Lorem ipsum dolor sit amet, nam purus fusce arcu ornare nec, penatibus massa, risus dolore enim dignissim urna aliquam sed.
+        p.largeP This is a large paragraph. Diam sapien magna at, est volutpat dui magna lorem, orci sit tempor etiam. In placerat et turpis et, urna ac tempor elementum luctus.
+        p.finePrint This is a fine print paragraph. Cras id nunc fermentum platea, pellentesque erat enim et scelerisque sociosqu, risus dui vivamus, ac aliquam id sociis nam vitae.
+      section.details.clearfix
+        div.code
+          h2.detailsTitle Code
+          pre.
+            &lt;p class=&quot;standardP&quot;&gt;This is a standard paragraph. Lorem ipsum dolor sit amet, nam purus fusce arcu ornare nec, penatibus massa, risus dolore enim dignissim urna aliquam sed.&lt;/p&gt;
+            &lt;p class=&quot;largeP&quot;&gt;This is a large paragraph. Diam sapien magna at, est volutpat dui magna lorem, orci sit tempor etiam. In placerat et turpis et, urna ac tempor elementum luctus.&lt;/p&gt;
+            &lt;p class=&quot;finePrint&quot;&gt;This is a fine print paragraph. Cras id nunc fermentum platea, pellentesque erat enim et scelerisque sociosqu, risus dui vivamus, ac aliquam id sociis nam vitae.&lt;/p&gt;
+        div.notes
+          h2.detailsTitle Notes
+          p.bodyText Standard paragraphs are used throughout the site. Large paragraphs are reserved for the index page and about page. Fine print paragraphs may be used on any page for specific semantic reasons.
+    section.styleSample
+      h2.subTitle Special text
+      section.demo
+        ul.demoList
+          li: strong Strong text
+          li: em Emphasized text
+          li: a(href='') Text link
+      section.details.clearfix
+        div.code
+          h2.detailsTitle Code
+          pre.
+            &lt;strong&gt;Strong text&lt;/strong&gt;
+            &lt;em&gt;Emphasized text&lt;/em&gt;
+            &lt;a href=&quot;#&quot;&gt;Text link&lt;/a&gt;
+        div.notes
+          h2.detailsTitle Notes
+          p.bodyText Strong text indicates important text within a sentence. Emphasized text is used to indicate contrast or stressed emphasis. Use text links for hyperlinks that do not warrant a button or image, or for mid-sentence links.
+

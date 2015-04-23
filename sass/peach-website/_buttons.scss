@@ -1,0 +1,25 @@
+button {
+  font: $button-font-size $main-font;
+  color: #FFFFFF;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  background-color: $primary-color;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 2rem;
+  transition: background-color 300ms ease-out;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+.specialCTA {
+  @extend button;
+  background-color: $secondary-color;
+  &:hover {
+    background-color: $hover-color-2;
+  }
+}

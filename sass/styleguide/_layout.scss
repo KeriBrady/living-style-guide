@@ -1,3 +1,16 @@
-fullWidth {
+.fullWidth {
   width: 100%;
+}
+
+.sideMenu {
+  @include column(1/4);
+}
+
+.pageContent {
+  @include column(3/4);
+}
+
+.code, .notes {
+  @include column(1/2);
+  padding: .5em;
 }

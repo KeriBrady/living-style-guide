@@ -1,0 +1,50 @@
+.header {
+  font: $h4-size $main-font;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin-right: 3em;
+  }
+}
+
+.navigationLink {
+  color: $third-color;
+  transition: color .1s;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  transition: color .1s;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.plus {
+  @extend .navigationLink;
+  color: $primary-color;
+  font-weight: 300;
+  font-size: $h3-size;
+}
+
+.footerBackground {
+  background-color: $third-color;
+}
+
+.footer {
+  font: $h4-size $additional-font;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin-right: 3em;
+  }
+}
+
+.footerLink {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 300;
+  transition: color .1s;
+  &:hover {
+    color: $primary-color;
+  }
+}

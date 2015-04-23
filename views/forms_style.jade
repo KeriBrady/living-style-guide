@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  section.pageContent
+    h1.pageTitle Forms
+    p.description Meggings sriracha typewriter, cred twee blog fap narwhal gluten-free farm-to-table iPhone wayfarers mlkshk. Jean shorts 8-bit Marfa Blue Bottle. Banh mi plaid bicycle rights cronut 3 wolf moon.
+    section.styleSample
+      h2.subTitle Text input with label
+      section.demo
+        div.inlineDiv
+          label(for='name') Your Name
+          input#name(type='text')
+        div.inlineDiv
+          label(for='email') Email Address
+          input#email(type='text')
+      section.details.clearfix
+        div.code
+          h2.detailsTitle Code
+          pre.
+            &lt;label for=&quot;name&quot;&gt;Your Name&lt;/label&gt;
+            &lt;input id=&quot;name&quot; type=&quot;text&quot;&gt;
+            &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+            &lt;input id=&quot;email&quot; type=&quot;text&quot;&gt;
+        div.notes
+          h2.detailsTitle Notes
+          p.bodyText Use these form elements for contact forms, sign up forms, and information request forms.

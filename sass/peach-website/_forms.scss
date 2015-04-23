@@ -1,0 +1,33 @@
+input {
+  border-width: 2px;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-top-style: none;
+  border-right-style: none;
+  border-color: $med-gray;
+  transition: all .6s;
+  font-weight: 300;
+}
+
+input[type=text] {
+  font: $large-p-size $main-font;
+  padding: .5em;
+  color: $dark-gray;
+  &:focus {
+    background: $fourth-color;
+    border-color: $primary-color;
+    outline: 0;
+    box-shadow: 0 0 5px $med-gray;
+  }
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  color: $primary-color;
+  font: $fineprint-size $main-font;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: .1rem;
+  line-height: 2;
+}

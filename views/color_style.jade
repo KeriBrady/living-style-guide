@@ -1,0 +1,47 @@
+extends layout
+
+block content
+  section.pageContent
+    h1.pageTitle Colors
+    p.description Meggings sriracha typewriter, cred twee blog fap narwhal gluten-free farm-to-table iPhone wayfarers mlkshk. Jean shorts 8-bit Marfa Blue Bottle. Banh mi plaid bicycle rights cronut 3 wolf moon.
+    section.styleSample
+      h2.subTitle Primary colors
+      section.demo
+        div.primarySwatch
+          p.swatchText #FA8970
+        div.secondarySwatch
+          p.swatchText #AC6C82
+        div.thirdSwatch
+          p.swatchText #333333
+        div.fourthSwatch
+          p.swatchText #EEEEEE
+      section.details.clearfix
+        div.code
+          h2.detailsTitle Code
+          pre.
+            #FA8970 = $primary-color
+            #AC6C82 = $secondary-color
+            #333333 = $third-color
+            #EEEEEE = $fourth-color
+        div.notes
+          h2.detailsTitle Notes
+          p.bodyText Primary colors are primarily used in graphics, buttons, and as background color in sections.
+    section.styleSample
+      h2.subTitle Accent colors
+      section.demo
+        div.accentSwatch1
+          p.swatchText #64AD8A
+        div.accentSwatch2
+          p.swatchText #F8613F
+        div.accentSwatch3
+          p.swatchText #98566D
+      section.details.clearfix
+        div.code
+          h2.detailsTitle Code
+          pre.
+            #64AD8A = $accent-color
+            #F8613F = $hover-color
+            #98566D = $hover-color-2
+        div.notes
+          h2.detailsTitle Notes
+          p.bodyText Secondary colors aren't used as often as primary colors. The teal accent color is used sparingly in the site, and is reserved for specific use cases. The hover colors are used in buttons and text links.

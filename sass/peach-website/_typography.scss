@@ -1,0 +1,67 @@
+//headings
+
+h1 {
+  display: block;
+  font: $h1-size $main-font;
+  color: $dark-gray;
+}
+
+h2 {
+  @extend h1;
+  font-size: $h2-size;
+  margin: 0;
+}
+
+h3 {
+  @extend h1;
+  font-size: $h3-size;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .15em;
+}
+
+h4 {
+  @extend h3;
+  color: $med-gray;
+  font-size: $h4-size;
+}
+
+//Body text
+
+.standardP {
+  font: $p-size $main-font;
+  line-height: 1.6;
+  color: $dark-gray;
+  margin-bottom: 1.25em;
+}
+
+.largeP {
+  @extend .standardP;
+  font-size: $large-p-size;
+}
+
+.finePrint {
+  @extend .standardP;
+  font-size: $fineprint-size;
+}
+
+//Special text
+
+strong {
+  @extend p;
+  font-weight: 700;
+}
+
+em {
+  @extend p;
+  font-style: italic;
+}
+
+a {
+  font: $p-size $main-font;
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    color: $hover-color;
+  }
+}
