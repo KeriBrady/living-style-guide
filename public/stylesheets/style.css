@@ -168,7 +168,7 @@ html, body, div, span, applet, object, iframe,
 h1,
 h2,
 h3,
-h4, h2, h3, h4, h4, h5, h6, p, strong, em, blockquote, pre,
+h4, h2, h3, h4, h5, h6, p, strong, em, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -282,35 +282,9 @@ pre {
   height: 0;
   clear: both; }
 
-.styleguideNav {
-  padding: 1em; }
-
-.navLink, .title {
-  padding: 0 1em;
-  font: 1em "Bitter", serif;
-  color: #000000; }
-  .navLink:hover, .title:hover {
-    color: #FFFFFF; }
-
-.title {
-  display: inline;
-  padding-right: 1em;
-  font: 1.5em "Bitter", serif; }
-
-.sideMenu ul {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #D1D1D1;
-  border-radius: .5em; }
-
-.sideLink {
-  font-family: "Muli", sans-serif;
-  display: block;
-  padding: 1em 0 1em 1em;
-  color: #333333; }
-  .sideLink:hover {
-    color: #FFFFFF;
-    background-color: #D1D1D1; }
+.container {
+  min-height: 100%;
+  position: relative; }
 
 .pageTitle {
   font: 2.25em "Bitter", serif;
@@ -322,44 +296,15 @@ pre {
   font: 1.5em "Muli", sans-serif;
   margin-bottom: 3em; }
 
-.styleSample {
-  margin-bottom: 3em; }
-
-.subTitle {
-  color: #F8613F;
-  margin-top: 1em;
-  font: 1.5em "Bitter", serif;
-  margin-bottom: .5em; }
-
-.demo {
-  margin: 1em 0 0 1em;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #D1D1D1;
-  border-radius: .5em;
-  padding: 1em; }
-
-.demoList > li {
-  padding: .5em 0; }
-
 .paddingTopBottom {
   padding: 10px 0; }
-
-.details {
-  margin: 1em 0 0 1em; }
-
-.code, .notes {
-  background-color: #D1D1D1;
-  border-radius: .5em; }
-
-.detailsTitle {
-  padding-bottom: .5em;
-  font: 1.5em "Muli", sans-serif;
-  color: #333333; }
 
 .bodyText {
   font: 1em "Muli", sans-serif;
   padding-bottom: 1em; }
+
+.lineHeight {
+  line-height: 1.5em; }
 
 .inlineDiv {
   display: inline-block;
@@ -399,24 +344,81 @@ pre {
 .accentSwatch3 {
   background-color: #98566D; }
 
+.styleguideNav {
+  padding: 1em; }
+
+.navLink, .title {
+  padding: 0 1em;
+  font: 1em "Bitter", serif;
+  color: #000000; }
+  .navLink:hover, .title:hover {
+    color: #FFFFFF; }
+
+.title {
+  display: inline;
+  padding-right: 1em;
+  font: 1.5em "Bitter", serif; }
+
+.sideMenu ul {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #D1D1D1;
+  border-radius: .5em; }
+
+.sideLink {
+  font-family: "Muli", sans-serif;
+  display: block;
+  padding: 1em 0 1em 1em;
+  color: #333333; }
+  .sideLink:hover {
+    color: #FFFFFF;
+    background-color: #D1D1D1; }
+
+.styleSample {
+  margin-bottom: 3em; }
+
+.subTitle {
+  color: #F8613F;
+  margin-top: 1em;
+  font: 1.5em "Bitter", serif;
+  margin-bottom: .5em; }
+
+.demo {
+  margin: 1em 0 0 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #D1D1D1;
+  border-radius: .5em;
+  padding: 1em; }
+
+.demoList > li {
+  padding: .5em 0; }
+
+.details {
+  margin: 1em 0 0 1em; }
+
+.code, .notes {
+  background-color: #D1D1D1;
+  border-radius: .5em; }
+
+.detailsTitle {
+  padding-bottom: .5em;
+  font: 1.5em "Muli", sans-serif;
+  color: #333333; }
+
 h1, h2, h3, h4 {
   display: block;
-  font: 2.75em "Raleway", sans-serif;
+  font: 2.441em "Raleway", sans-serif;
   color: #222222; }
 
 h2 {
-  font-size: 2.25em;
-  margin: 0; }
+  font-size: 1.953em; }
 
-h3, h4 {
-  font-size: 1.25em;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .15em; }
+h3 {
+  font-size: 1.563em; }
 
 h4 {
-  color: #AAABAC;
-  font-size: 0.875em; }
+  font-size: 1.25em; }
 
 .standardP, .largeP, .finePrint {
   font: 1em "Raleway", sans-serif;
@@ -495,7 +497,7 @@ label {
   line-height: 2; }
 
 .header {
-  font: 0.875em "Raleway", sans-serif;
+  font: 0.9em "Raleway", sans-serif;
   list-style-type: none; }
   .header li {
     display: inline-block;
@@ -514,13 +516,13 @@ label {
 .plus {
   color: #FA8970;
   font-weight: 300;
-  font-size: 1.25em; }
+  font-size: 1.5em; }
 
 .footerBackground {
   background-color: #333333; }
 
 .footer {
-  font: 0.875em "Montserrat", sans-serif;
+  font: 0.9em "Montserrat", sans-serif;
   list-style-type: none; }
   .footer li {
     display: inline-block;

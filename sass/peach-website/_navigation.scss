@@ -1,5 +1,5 @@
 .header {
-  font: $h4-size $main-font;
+  font: .9em $main-font;
   list-style-type: none;
   li {
     display: inline-block;
@@ -23,7 +23,7 @@
   @extend .navigationLink;
   color: $primary-color;
   font-weight: 300;
-  font-size: $h3-size;
+  font-size: 1.5em;
 }
 
 .footerBackground {
@@ -31,7 +31,7 @@
 }
 
 .footer {
-  font: $h4-size $additional-font;
+  font: .9em $additional-font;
   list-style-type: none;
   li {
     display: inline-block;

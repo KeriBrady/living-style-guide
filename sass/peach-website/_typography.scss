@@ -9,20 +9,15 @@ h1 {
 h2 {
   @extend h1;
   font-size: $h2-size;
-  margin: 0;
 }
 
 h3 {
   @extend h1;
   font-size: $h3-size;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .15em;
 }
 
 h4 {
-  @extend h3;
-  color: $med-gray;
+  @extend h1;
   font-size: $h4-size;
 }
 
